@@ -2,26 +2,199 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+ *{
+  margin: 0;
+  padding: 0;
+ }
+.header{
+  background-color: black;
+  display: flex;
+  height: 100px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.food{
+  color: white;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 30px;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.navbar{
+  color: white;
 }
+.navbar ul{
+  display: flex;
+  font-size: 20px ;
+  gap: 20px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.home{
+  color: rgb(184, 116, 15);
+}
+.tuck{
+  color: rgb(184, 116, 15);
+  font-size: 30px;
+  margin-top: 30px;
+}
+.icon{
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: 200px;
+  color: white;
+}
+.error{
+position: absolute;
+top: 250px;
+left: 650px;
+font-size: 25px;
+}
+.errors ,.home-heading{
+  color: white;
+  font-weight: bold;
+}
+.error-div{
+  display: flex;
+}
+.wrong{
+  text-align: center;
+  margin-top: 50px;
+}
+.heading2{
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(253, 109, 42);
+}
+.something-wrong{
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+   font-weight: bold;
+}
+.paragraph{
+  font-size: 20px;
+  color: black;
+}
+.Go-home{
+  background-color: rgb(255, 136, 25);
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+ margin-left: 600px;
+ margin-top: 50px;
+}
+.footer{
+  background-color: black;
+  height: 700px;
+}
+.left-container{
+  color: white;
+  margin: 30px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+.left-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.right-container input{
+  background-color: rgb(255, 136, 25);
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 7px;
+   position: absolute;
+   top: 850px;
+   right: 300px;
+   text-align: center;
+}
+.right-container button{
+  background-color: white;
+  text-align: center;
+  color: rgb(255, 136, 25); 
+  border-radius: 7px;
+   position: absolute;
+   top: 850px;
+   right: 220px;
+   height: 35px;
+}
+.About-footer h1 {
+      color: white;
+      padding-left: 100px;
+      padding-top: 50px;
+      font-size: 30px;
+      font-weight: bold;
+}
+.About-footer p {
+  color: white;
+ padding-top: 30px;
+  font-size: 13px;
+  padding-left: 100px;
+}
+.About-footer img {
+   position: absolute;
+   top: 1180px;
+   left: 100px;
+}
+.Timming{
+  position: absolute;
+  top: 1150px;
+  left: 60px;
+}
+.Useful{
+  color: white;
+  position: absolute;
+  top: 1000px;
+  left: 470px;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+}
+.Useful h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.help{
+  position: absolute;
+  top: 1000px;
+  left: 700px;
+  color: white;
+}
+.help h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.image h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 1000px;
+  left: 900px;
+}
+.picture1{
+  position: absolute;
+  top: 1050px;
+  right: 200px;
+}
+.picture2{
+  position: absolute;
+  top: 1150px;
+  right: 200px;
+}
+.picture3{
+  position: absolute;
+  top: 1250px;
+  right: 200px;
+}
+.Aqsa{
+  background-color: gray;
+  color: white;
+  height: 70px;
+   padding-left: 150px;
+   position: absolute;
+   top: 1445px;
+   width: 100%;
+   padding-top: 20px;
+   display: flex;
+}
+.picture4{
+padding-left: 500px;
 }
